@@ -8,6 +8,11 @@ button {
   border: none;
   background: none;
 }
+
+a {
+  text-decoration: none;
+}
+
 .main__btn {
   background: linear-gradient(88deg, #0041a4 3.4%, #00a386 98.93%);
   box-shadow: 0px 10px 50px rgba(0, 221, 185, 0.25);

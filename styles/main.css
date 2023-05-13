@@ -1,3 +1,52 @@
-header{
-  
+.header {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.logo__block {
+  margin-right: 84px;
+}
+
+.logo {}
+
+.nav {
+  display: flex;
+  gap: 40px;
+  margin-right: 38px;
+}
+
+.nav__link {
+  font-weight: 600;
+  color: #272727;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.phone__icon {
+  width: 30px;
+  height: 30px;
+  background: #73A56C;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone__number {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #272727;
 }
