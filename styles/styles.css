@@ -4,9 +4,14 @@
   box-sizing: border-box;
   font-family: "Gilroy";
 }
+
 button {
   border: none;
   background: none;
+}
+
+li {
+  list-style: none;
 }
 
 a {
@@ -17,17 +22,19 @@ a {
   background: linear-gradient(88deg, #0041a4 3.4%, #00a386 98.93%);
   box-shadow: 0px 10px 50px rgba(0, 221, 185, 0.25);
   border-radius: 15px;
-
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  color: #fff;
+  padding: 22px 44px;
+  cursor: pointer;
 }
+
 .submit__btn {
   background: #73a56c;
   border-radius: 15px;
-
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
