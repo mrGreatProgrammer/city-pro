@@ -1,6 +1,6 @@
 /* HEADER */
 .header__main {
-  background: #E8E8E8;
+  background: #e8e8e8;
   background-image: url(../images/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,7 +12,6 @@
   background-color: #fff;
   padding: 20px 0;
   border-radius: 15px;
-
 }
 
 .header__wrapper {
@@ -24,7 +23,8 @@
   margin-right: 84px;
 }
 
-.logo {}
+.logo {
+}
 
 .nav {
   display: flex;
@@ -37,11 +37,11 @@
   color: #272727;
   font-size: 18px;
   line-height: 22px;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .nav__link:hover {
-  color: #0041A4;
+  color: #0041a4;
 }
 
 .phone {
@@ -53,7 +53,7 @@
 .phone__icon {
   width: 30px;
   height: 30px;
-  background: #73A56C;
+  background: #73a56c;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -69,16 +69,16 @@
 
 /* BURGER */
 .menu {
-  visibility: hidden;
-  position: absolute;
+  /* visibility: hidden; */
+  /* position: absolute; */
+  /* flex-direction: column; */
   background: #fff7;
   top: 115px;
   left: -100%;
   padding: 20px 30px;
   display: flex;
-  flex-direction: column;
   gap: 10px;
-  transition: left .7s;
+  transition: left 0.7s;
 }
 
 .menu__link {
@@ -88,7 +88,8 @@
 }
 
 /* MAIN__SECTION */
-.main__section {}
+.main__section {
+}
 
 .main__section-wrapper {
   display: flex;
@@ -137,17 +138,62 @@
 .dot {
   width: 51px;
   height: 4px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 100px;
   cursor: pointer;
 }
 
 .active {
-  background: #0041A4;
+  background: #0041a4;
 }
 
 .image__block {
   margin-top: 38px;
 }
 
-.bg {}
+.bg {
+}
+
+.folder {
+  border-radius: 35px;
+  width: 100%;
+  position: relative;
+  margin-top: 160px;
+}
+.folder-title-container{
+  width: 469px;
+  position: absolute;
+  top: -60px;
+  z-index: 1;
+  padding-top: 30px;
+  padding-left: 70px;
+  background: #e8e8e8;
+  border-radius: 35px 35px 0px 0px;
+}
+.folder-title-container:after{
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 0px 90px 0px 0px;
+  background: #000;
+  border: 15px solid #000;
+  border-bottom-left-radius: 10px;
+  right: 0;
+  top: 25px;
+}
+.folder-content{
+  background: #e8e8e8;
+  padding-top: 135px;
+  border-radius: 0px 35px 35px 35px;
+  height: 544px;
+}
+.folder-title {
+  font-weight: 700;
+  font-size: 45px;
+  width: 450px;
+  text-transform: uppercase;
+  color: #465067;
+  font-weight: 700;
+  line-height: 45px;
+}
